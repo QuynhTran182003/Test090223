@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autoservis</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <header class="text-bg-dark d-flex justify-content-around p-3">
+        <h1 class="">Klaus Autoservis</h1>
+        
+    </header>
+    <nav class="nav p-3">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, laboriosam similique voluptatem assumenda, ex, modi itaque explicabo debitis adipisci alias earum sed corporis atque iusto unde. Suscipit aliquam esse ea.
+            Tempora magni explicabo laudantium corrupti nulla dicta eligendi minus, ducimus ad blanditiis repellendus. Ex consequuntur aspernatur quo blanditiis, eius est illum minima dolor atque commodi alias reiciendis earum facere ipsa.
+            Atque itaque eveniet minus rerum est laborum quia beatae molestiae voluptates quis debitis vitae repudiandae ipsam maiores molestias impedit dolore, fugiat eum. Illo, dolorem perferendis vel magnam ratione delectus eius?
+            Optio iusto fugiat adipisci modi ex asperiores dignissimos consequuntur reprehenderit exercitationem nemo accusantium, nam doloribus? Cupiditate at explicabo excepturi praesentium modi saepe fugit asperiores consequuntur</p>   
+    </nav>
+    
+    
+    <form action="" class="p-3">
+        <section>
+            <!-- rok výroby, značka, model a najeté kilometry -->
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Značka</span>
+                <input type="text" class="form-control znacka" placeholder="Značka" aria-label="znacka" aria-describedby="basic-addon1">
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Rok výroby</span>
+                <input type="number" class="form-control rokVyroby" placeholder="Rok" aria-label="znacka" aria-describedby="basic-addon1">
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Model</span>
+                <input type="text" class="form-control model" placeholder="Model" aria-label="znacka" aria-describedby="basic-addon1">
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Najete kilometry</span>
+                <input type="number" class="form-control najete" placeholder="Km" aria-label="znacka" aria-describedby="basic-addon1">
+            </div>
+        </section>
+    </form>
+    <br>
+    <div class="p-3 d-flex justify-content-around">
+        <button type="button" class=" btn btn-primary w align-self-start submit">Add car</button>
+        <br><br>
+    
+        <button type="button" class=" btn btn-primary w align-self-start display">Get all cars</button>
+        <!-- <p class="allCars"></p> -->
+    
+        <!-- <button type="button" class=" btn btn-primary w align-self-start delete">Delete car</button>
+        <p class="deletedCar"></p> -->
+    </div>
+    
+    <div class="carListDiv d-flex flex-row">
+        <!-- <div class="card m-3" style="width: 18rem;">
+            <img src="images/Audi-A6.jpg" class="card-img-top" alt="Audi-A6">
+            <div class="card-body">
+              <h5 class="card-title znackaCard"></h5>
+              <p class="card-text model">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button type="button" class=" delete btn btn-primary ">Delete</button>
+            </div>
+        </div> -->
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
